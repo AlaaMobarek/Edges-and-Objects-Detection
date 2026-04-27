@@ -50,42 +50,20 @@ A Qt/C++ desktop application implementing classic computer vision algorithms fro
 
 ## 📊 Results
 
-### Canny Edge Detection
-| Edges |
-|-------|
-| ![Edges](results/canny_edges.png) |
+### Canny Edge Detection and Active Contour (Snake)
+| Edges |Contour |
+|-------|----------------|
+| ![Edges](results/canny_edges.png) |![Results](results/active.png) |
 
 ---
 
-### Hough Line Detection
-| Detected Lines |
-|----------------|
-| ![Lines](results/line.png) |
+### Hough  Detection (Lines - Circles - Ellipses)
+| Detected Lines |Detected Circles |Detected Ellipses |
+|----------------|-----------------|------------------|
+|![Lines](results/line.png) |![Circles](results/circle.png) |![Ellipses](results/ellipse.png) |
 
 ---
 
-### Hough Circle Detection
-|Detected Circles |
-|-----------------|
-| ![Circles](results/circle.png) |
-
----
-
-### Hough Ellipse Detection
-|Detected Ellipses |
-|------------------|
-|![Ellipses](results/ellipse.png) |
-
----
-
-### Active Contour (Snake)
-| Initial Contour |
-|----------------|
-|![Results](results/active.png) |
-
-> 💡 To add your own screenshots, place them in a `results/` folder at the root of the repo and update the paths above accordingly.
-
----
 
 ## ⚙️ Parameters Guide
 
